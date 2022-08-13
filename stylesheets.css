@@ -1,0 +1,61 @@
+body{font-size:1.2em;
+margin:0px;
+padding:0px;
+background-color:rgb(201, 52, 2);
+color:goldenrod;
+font-family: 'Cormorant SC', serif;
+}
+
+li{padding:24px;
+border-bottom:2px solid black;}
+
+li:hover{font-size:1.65rem;
+padding:21.5px;
+background-color:rgba(180, 45, 0, 0.651);}
+
+ul{margin:0px;
+padding:0px;}
+
+h2{color:white;
+text-align:center;
+background-color:goldenrod;}
+
+.navlinks{font-size:1.35rem;
+color:goldenrod;
+background-color:darkred;
+text-align:center;}
+
+.imagebanner{background-image:url("images/banner_evilcat.png");
+padding:50px 0;
+background-size:5000;}
+
+.introduction{text-align:center;
+color:goldenrod;
+font-size:1.5rem;
+}
+
+.theory{margin:100px;
+text-align:center;
+}
+
+img{border-style:solid;
+border-color:red;
+margin:60px}
+
+@media screen and (min-width:700px) {
+    ul {
+        text-align: right;
+    }
+
+    li {
+        display: inline-block;
+        border-bottom:0px;
+        border-left:1px solid black;
+    }
+
+    .theory {
+        size:30%;
+        display:inline-block;
+        vertical-align:top;
+    }
+}
